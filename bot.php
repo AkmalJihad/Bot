@@ -69,7 +69,7 @@ function shalat($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Assalamualaikum Kakak, aku adalah bot jadwal shalat, silahkan ketik\n\n/shalat <nama tempat>\n\nnanti aku bakalan kasih tahu jam berapa waktunya shalat ^_^";
+    $text = "Halo kak. Terima kasih sudah mengundangku ke grup ini ^^ Silahkan klik /help untuk melihat command yang tersedia";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
